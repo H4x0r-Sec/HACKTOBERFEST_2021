@@ -8,10 +8,10 @@ cat << "EOF"
 HAYUKK!
 EOF
 echo ""
-read -p "Select Your List : " listo;
-read -p "Save Name (Name.txt) : " saved;
+read -p "Pilih List : " listo;
+read -p "Simpan (Nama.txt) : " saved;
 
-multithread_limit=7
+multithread_limit=5
 IFS=$'\r\n' GLOBIGNORE='*' command eval 'list=($(cat $listo))'
 for (( i = 0; i < "${#list[@]}"; i++ )); 
 do
