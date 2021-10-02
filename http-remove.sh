@@ -5,24 +5,7 @@ remove(){
 	echo "$delete">>$saved
 }
 cat << "EOF"
-                      .".
-                     /  |
-                    /  /
-                   / ,"
-       .-------.--- /
-      "._ __.-/ o. o\
-         "   (    Y  )
-              )     /
-             /     (
-            /       Y
-        .-"         |
-       /  _     \    \
-      /    `. ". ) /' )
-     Y       )( / /(,/
-    ,|      /     )
-   ( |     /     /
-    " \_  (__   (__        [NakoCoders - Remove HTTP/HTTPS]
-        "-._,)--._,)
+HAYUKK!
 EOF
 echo ""
 read -p "Select Your List : " listo;
